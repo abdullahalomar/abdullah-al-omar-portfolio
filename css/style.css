@@ -86,6 +86,24 @@ body{
 /* project start */
 
 /* project end */
+
+/* service start */
+.offer{
+    height: 700px;
+}
+.offer-1{
+    background-color: rgb(142, 189, 190);
+}
+.offer-2{
+    background-color: rgb(129, 212, 147);
+}
+.offer-3{
+    background-color: rgb(212, 152, 124);
+}
+.offer-4{
+    background-color: rgb(170, 146, 197);
+}
+/* service end */
 /* data-aos="flip-up" data-aos-duration="2000" */
 
 
