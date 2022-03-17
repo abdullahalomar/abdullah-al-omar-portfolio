@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+/* navbar start */
+.navbar{
+    width: 100vw;
+}
+.fa-brands{
+    margin-left: 10px;
+}
+/* navbar end */
+
+/* slide-content start */
+.slide{
+    font-family: 'Nunito', sans-serif;
+}
+.title-name h1{
+   margin-top: 40px;
+}
+.span-color{
+    color: coral;
+}
+.btn-outline-primary{
+    width: 120px;
+    color: rgb(0, 0, 0);
+    
+}
+/* slide-content end*/
