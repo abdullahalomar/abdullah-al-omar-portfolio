@@ -15,13 +15,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,700;1,400&family=Fredoka:wght@500;600&family=Nunito+Sans:wght@300;600&family=Shippori+Antique+B1&family=Ubuntu&family=Varela+Round&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,700;1,400&family=Fredoka:wght@600&family=Nunito+Sans:wght@300;600&family=Nunito:wght@800&family=Shippori+Antique+B1&family=Ubuntu:wght@400;700&family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- venobox plugin-->
+    <link rel="stylesheet" href="venoBox-master/dist/venobox.min.css" type="text/css" media="screen" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
 
     <title>Abdullah Al Omar</title>
   </head>
   <body>
-    
+    <!-- header start -->
     <header class="navigation">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
@@ -61,21 +64,66 @@
           <i class="fa-brands fa-instagram"></i>
         </div>
     </header>
+    <!-- header end -->
 
-    <!-- slide content -->
+    <!-- slide content start-->
     <section class="slide container mt-5">
       <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1">
         <div class="col title-name">
-          <img src="media/its-me-web.png" alt="">
-           <h1 class="h1-text">Abdullah Al <span class="span-color">Omar</span></h1>
-           <h4><span class="span-color">W</span>eb Designer and <span class="span-color">De</span>veloper</h4>
-           <button type="button" class="btn btn-outline-primary mt-4 fw-bold">HIRE ME</button>
+          <img data-aos="fade-right"
+          data-aos-duration="3000" src="media/its-me-web.png" alt="">
+           <h1 class="h1-text" data-aos="fade-up"
+           data-aos-duration="3000">Abdullah Al <span class="span-color">Omar</span></h1>
+           <h4 data-aos="fade-up"
+           data-aos-duration="3000"><span class="span-color">W</span>eb Designer and <span class="span-color">De</span>veloper</h4>
+           <button type="button" class="btn btn-outline-danger mt-4 fw-bold">Hire Me   <i class="fa-solid fa-laptop-code"></i></button>
         </div>
         <div class="col">
-          <img src="media/web-photo-1.png" width="340" alt="">
+          <img data-aos="fade-down-left"
+          data-aos="fade-up"
+          data-aos-duration="3000" src="media/web-photo-1.png" width="340" alt="">
         </div>
       </div>
+      <hr>
     </section>
+    <!-- slide content end-->
+    
+    <!-- about start -->
+    <section class="container mt-5">
+        <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1">
+           <div class="col">
+              <img src="media/man-vector-1.png" height="450" width="270" alt="">
+           </div>
+           <div class="col">
+             <div class="about-sec">
+              <h1 class="about">About <span class="span-color">Me</span>  <i class="fa-solid fa-address-card"></i></h1>
+              <article>
+               <div class="line-div">
+                <span class="hello">Hello</span>, I am Abdullah Al Omar. I am a student. I have completed Diploma in Computer Engineering at Barisal Polytechnic Institute. I am studying as well as working in web design and development...
+               </div>
+              </article> 
+             </div>
+           </div>
+        </div>
+    </section>
+    <!-- about end -->
+
+     <!-- Optional JavaScript; choose one of the two! -->
+     <script src="VenoBox-master/dist/venobox.min.js"></script>
+     <script>
+         new VenoBox({
+     selector: '.my-image-links',
+     numeration: true,
+     infinigall: true,
+     share: true,
+     spinner: 'rotating-plane'
+ });
+     </script>
+     
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+         AOS.init();
+       </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 

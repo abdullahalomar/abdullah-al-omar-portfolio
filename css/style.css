@@ -25,9 +25,55 @@ body{
 .span-color{
     color: coral;
 }
-.btn-outline-primary{
+.btn-outline-danger{
     width: 120px;
-    color: rgb(0, 0, 0);
-    
+    color: rgb(255, 255, 255);
+    background-color: rgb(223, 78, 78);
+}
+.btn-outline-danger:hover{
+    color: rgb(226, 40, 40);
+    background-color: rgb(255, 248, 240);
 }
 /* slide-content end*/
+
+/* about start */
+
+.about{
+    font-size: 45px;
+}
+.hello{
+    color: crimson;
+}
+.about-sec{
+    margin-top: 80px;
+}
+.line-div{
+    border: 3px solid rgb(53, 158, 199);
+    border-radius: 8px;
+    padding: 8px 9px 50px 10px;
+}
+.fa-address-card{
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+@-webkit-keyframes sk-rotateplane {
+    0% { -webkit-transform: perspective(120px) }
+    50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+    100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+  }
+  
+  @keyframes sk-rotateplane {
+    0% { 
+      transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+      -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+    } 50% { 
+      transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+      -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+    } 100% { 
+      transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+      -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
+  }
+/* about end */
+
+/* data-aos="flip-up" data-aos-duration="2000" */
