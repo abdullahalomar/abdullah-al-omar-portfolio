@@ -9,12 +9,15 @@ body{
 }
 .fa-brands{
     margin-left: 10px;
+    color: black;
+    
 }
 /* navbar end */
 
 /* slide-content start */
 .slide{
     font-family: 'Nunito', sans-serif;
+    margin-top: 60px;
 }
 .title-name h1{
    margin-top: 40px;
@@ -37,9 +40,13 @@ body{
 /* slide-content end*/
 
 /* about start */
-
 .about{
     font-size: 45px;
+}
+.line{
+   border: 1px solid rgb(211, 58, 58);
+   width: 190px;
+   margin-bottom: 40px;
 }
 .hello{
     color: crimson;
@@ -50,7 +57,7 @@ body{
 .line-div{
     border: 3px solid rgb(53, 158, 199);
     border-radius: 8px;
-    padding: 8px 9px 50px 10px;
+    padding: 8px 9px 50px 8px;
 }
 
 .fa-address-card{
